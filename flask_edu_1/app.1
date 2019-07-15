@@ -1,0 +1,17 @@
+#!/usr/bin/python
+
+from flask import Flask, render_template
+from toy import Toy
+
+app = Flask(__name__)
+
+duplo = Toy(name='duplo')
+lego = Toy(name='lego')
+knex = Toy(name='knex')
+
+toys = [duplo,lego,knex]
+
+@app.route('/toys')
+def index():
+    return render_template('index.html', toys=toys)
+

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Let's see some more information about this toy!</h1>
+    <p>
+        The name of the toy is {{toy.name}} - it's a pretty great one.
+    </p>
+    <a href="{{url_for('index')}}">See all the toys</a>
+    <br>
+    <a href="{{url_for('edit', id=toy.id)}}">Edit this toy</a>
+{% endblock %}

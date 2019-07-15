@@ -1,0 +1,6 @@
+#getch
+#pytest
+#pytest-mock
+#pytest-cov
+#Sphinx
+#rinohtype

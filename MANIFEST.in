@@ -1,0 +1,8 @@
+include README.md
+include docs/html/*
+include docs/html/search/*
+include bin/*
+include .gitignore
+include LICENSE
+include doxygen.ini
+include tests/*
