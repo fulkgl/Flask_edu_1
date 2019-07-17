@@ -1,0 +1,25 @@
+<!doctype html>
+<HTML><HEAD><title>Flask class</title>
+</head><BODY>
+<h1>ABOUT ME</h1>
+<p>These are the times the try...
+<p>Just to make sure this is different.
+
+<p>
+
+{% if name %}
+My name is {{ name }}.
+{% else %}
+Unknown.
+{% endif %}
+
+
+<p>Fibonacci numbers:
+{{ fib }}
+
+{% for i in fib %}
+<p>{{i}}
+{% endfor %}
+
+
+</body></html>

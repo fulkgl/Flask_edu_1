@@ -1,0 +1,11 @@
+
+Here are the files I created live at the library on July 16.
+
+hello1.py           the basic web server
+templates\*         the html for the basic web server above
+get_data.py         an example of query to the basic web server
+database3.py        A REST server
+test_database3.py   pytest of the REST server
+create_new.py       an example of post and get to the rest server
+
+If you have any questions, I'm at fulkgl@gmail.com (George L Fulk)
